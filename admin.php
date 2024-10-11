@@ -562,6 +562,7 @@ function setActiveSection(sectionId) {
     window.location.hash = sectionId;
     console.log("section id: ", sectionId)  // Set URL hash
     toggleSection(sectionId);  // Show the selected section
+    updateDashboard()
 }
 
 // Function to toggle visibility of sections
